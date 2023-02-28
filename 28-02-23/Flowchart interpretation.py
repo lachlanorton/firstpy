@@ -1,6 +1,6 @@
 print("This program will determine your interest rate level based on")
 print("the amount of time the money has been in your bank account.")
-print("/n")
+print(" ")
 time = float(input("How many years has the money been in your bank account?: "))
 interest = 0
 
