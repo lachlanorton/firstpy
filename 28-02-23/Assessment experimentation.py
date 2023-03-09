@@ -1,15 +1,19 @@
-print("LOGIN")
-print("REGISTER")
-print("EXIT")
-option = input("Please select an option: ")
+# Experimentation playground for assessment
+# Written by Lachlan Orton
+# Date: 28/02/2023
+# TAFE St Leonard's Campus
 
-if option == "LOGIN":
+print("1) LOGIN")
+print("2) REGISTER")
+print("3) EXIT")
+
+option = float(input("Please select an option (#): "))
+
+if option == 1:
     print("Welcome to Login")
-else:
-    if option == "REGISTER":
-        print("Welcome to Register")
-    else:
-        if option == "EXIT":
-            print("Exiting...")
-        else:
-            print("Incorrect option! Please restart.")
+elif option == 2:
+    print("Welcome to Register")
+elif option == 3:
+    print("Exiting...")
+elif option > 3:
+    print("Incorrect option! Please restart.")
