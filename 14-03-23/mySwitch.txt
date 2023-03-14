@@ -1,0 +1,18 @@
+enable 
+conf t 
+host mySwitch
+no ip domain lookup 
+enable secret class 
+banner motd #Authorised personnel only# 
+line con 0 
+password cisco 
+logging synchronous 
+line vty 0 4 
+transport input all 
+password cisco 
+login local 
+interface vlan 1 
+ip address 192.168.0.1255.255.255.0
+no shut 
+ip default-gateway 127.0.0.1
+do wr 

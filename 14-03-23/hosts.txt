@@ -1,0 +1,4 @@
+google.com: 8.8.8.8
+facebook.com: 200.0.8.1
+youtube.com: 9.9.9.9
+loopback.net: 127.0.0.1
